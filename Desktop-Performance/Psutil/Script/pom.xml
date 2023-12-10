@@ -1,0 +1,7 @@
+<dependencies>
+    <dependency>
+        <groupId>com.github.oshi</groupId>
+        <artifactId>oshi-core</artifactId>
+        <version>5.8.2</version>        <!-- use the latest version -->
+    </dependency>
+</dependencies>
