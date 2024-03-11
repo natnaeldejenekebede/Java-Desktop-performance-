@@ -24,7 +24,6 @@ public class SystemMonitor extends JFrame {
         mainPanel.setBorder(new EmptyBorder(15, 15, 15, 15));
         mainPanel.setBackground(Color.WHITE);
         mainPanel.setAlignmentX(Component.CENTER_ALIGNMENT);
-        // mainPaneal = new Jpanel( new GridLayout(0,1));
         mainPanel.setBorder(new EmptyBorder(15, 15, 15, 15));
         mainPanel.setBackground(Color.WHITE);
         mainPanel.setAlignmentX(Component.CENTER_ALIGNMENT);
