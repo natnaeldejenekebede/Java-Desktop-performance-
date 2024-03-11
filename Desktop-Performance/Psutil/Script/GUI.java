@@ -80,7 +80,6 @@ public class GUI extends JFrame {
     }
 
     private void displayMemoryInformation() {
-        // Get memory information from the local PC
         MemoryMXBean memoryBean = ManagementFactory.getMemoryMXBean();
         MemoryUsage heapMemoryUsage = memoryBean.getHeapMemoryUsage();
         MemoryUsage nonHeapMemoryUsage = memoryBean.getNonHeapMemoryUsage();
