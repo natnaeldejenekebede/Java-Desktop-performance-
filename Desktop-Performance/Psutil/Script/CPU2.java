@@ -48,7 +48,6 @@ public class CPU2 extends JFrame {
         mainPanel.add(Box.createRigidArea(new Dimension(0, 10)));
         mainPanel.add(refreshButton);
 
-        // Initialize timer for real-time updates (every 5 seconds)
         timer = new Timer(5000, e -> displaySystemInformation());
         timer.start();
 
