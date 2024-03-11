@@ -14,10 +14,7 @@ public class graph extends JFrame {
         setAlwaysOnTop(rootPaneCheckingEnabled);
 
 
-        // Initialize timer for real-time updates (every 5 seconds)
         Timer timer = new Timer(5000, e -> displaySystemInformation());
-        // add new line here to start timer 
-        // give me more additional functionality
         timer.start();
     }
 
