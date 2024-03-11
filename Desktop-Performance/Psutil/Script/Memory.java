@@ -49,7 +49,6 @@ public class Memory extends JFrame {
         titleLabel.setBorder(new EmptyBorder(10, 0, 10, 0));
         titleLabel.setOpaque(true); 
         titleLabel.setBackground(new Color(65, 105, 225)); 
-        // add for text font and color and other functionality
         titleLabel.setForeground(Color.WHITE);
         titleLabel.setFont(new Font("Arial", Font.BOLD, 24));
         titleLabel.setHorizontalAlignment(JLabel.CENTER);
