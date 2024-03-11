@@ -9,7 +9,6 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
-// import oshi.hardware.HardwareAbstractionLayer;
 
 
 
@@ -149,8 +148,7 @@ class SystemInfo {
     public String getCpuDetails() {
         return null;
     }
-    // Unchanged code for CPU details and memory information
-    // ...
+   
 
     public String getMemoryInfo() {
         return null;
