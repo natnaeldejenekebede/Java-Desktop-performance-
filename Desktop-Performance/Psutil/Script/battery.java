@@ -54,7 +54,7 @@ public class battery {
     private void showBatteryInformation() {
         Battery battery = Battery.getSensorsBattery();
         if (battery == null) {
-            System.exit(1); // platform not supported
+            System.exit(1); 
         }
 
         chargeLabel.setText(round(battery.getPercent(), 2) + "%");
@@ -107,9 +107,7 @@ public class battery {
         }
 
         public static Battery getSensorsBattery() {
-            // Implement the logic to get battery information in Java
-            // This is a placeholder, you may need to use platform-specific APIs.
-            // For simplicity, we assume a battery with 74% charge, 2 hours left, and not plugged in.
+          
             return new Battery(74, 2 * 60 * 60, false);
         
         }
