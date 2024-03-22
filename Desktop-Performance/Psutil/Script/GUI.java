@@ -74,7 +74,6 @@ public class GUI extends JFrame {
 
         add(mainPanel);
 
-        // Initialize timer for real-time updates (every 5 seconds)
         timer = new Timer(5000, e -> displayMemoryInformation());
         timer.start();
     }
