@@ -13,7 +13,6 @@ public class graph extends JFrame {
         setVisible(true);
         setAlwaysOnTop(rootPaneCheckingEnabled);
 
-
         Timer timer = new Timer(5000, e -> displaySystemInformation());
         timer.start();
     }
